@@ -70,7 +70,7 @@ class Board:
         print(" |"+"|".join(list("ABCDEFGH"))+"|")
         if self.printed:
             print("  \r",end="")
-        self.printed = True
+        # self.printed = True
 
     def __init__(self):
         self.board = [
